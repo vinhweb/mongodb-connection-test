@@ -1,0 +1,11 @@
+{
+  "name": "mongodb-connection-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "engines": { "node": ">=22.9.0" },
+  "dependencies": { "mongodb": "^6.19.0" }
+}
